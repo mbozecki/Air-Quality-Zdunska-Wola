@@ -1,4 +1,4 @@
-# Check air pollution app
+# App-powietrze-Zdunska-Wola
 ![product-screenshot](https://i.imgur.com/0n83l9f.jpg)
 
 
