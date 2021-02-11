@@ -16,7 +16,7 @@
         android:clickable="false"
 
         android:orientation="vertical"
-        android:paddingBottom="@dimen/_100sdp"
+        android:paddingBottom="100dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,14 +37,14 @@
         <TextView
 
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/_140sdp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
             android:id="@+id/detail_CAQI"
             android:fontFamily="sans-serif-medium"
             android:text="33"
             android:textColor="@color/white"
-            android:textSize="@dimen/_130sdp" />
+            android:textSize="200dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -95,7 +95,7 @@
             android:text="Dane szczegółowe"
 
             android:textColor="@color/white"
-            android:textSize="@dimen/_24sdp" />
+            android:textSize="24dp" />
         <TextView
             android:id="@+id/odczyt"
             android:layout_width="match_parent"
@@ -106,7 +106,7 @@
             android:text="Odczyt z godziny 15"
 
             android:textColor="@color/white"
-            android:textSize="@dimen/_12sdp" />
+            android:textSize="12dp" />
 
         <LinearLayout
             android:id="@+id/PM10_layout"
@@ -141,7 +141,7 @@
                 android:text="150%"
 
                 android:textColor="@color/white"
-                android:textSize="@dimen/_30sdp" />
+                android:textSize="30dp" />
 
             <TextView
                 android:id="@+id/PM10_indicator"
@@ -190,7 +190,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="67%"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_30sdp" />
+                android:textSize="30dp"/>
 
             <TextView
                 android:id="@+id/PM25_indicator"
@@ -234,11 +234,11 @@
 
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:fontFamily="sans-serif-medium"
                 android:text=""
                 android:textColor="@color/white"
-                android:textSize="48dp" />
+                android:textSize="30dp" />
 
             <TextView
                 android:id="@+id/PM1_indicator"

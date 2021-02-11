@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 /**
- * Created by yarolegovich on 25.03.2017.
+ * for sliding menu only - Created by yarolegovich on 25.03.2017.
  */
 
 public class CenteredTextFragment extends Fragment {

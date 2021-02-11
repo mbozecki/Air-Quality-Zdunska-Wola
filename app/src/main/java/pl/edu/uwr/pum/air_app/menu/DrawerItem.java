@@ -3,7 +3,7 @@ package pl.edu.uwr.pum.air_app.menu;
 import android.view.ViewGroup;
 
 /**
- * Created by yarolegovich on 25.03.2017.
+ * for sliding menu only -  Created by yarolegovich on 25.03.2017.
  */
 
 public abstract class DrawerItem<T extends DrawerAdapter.ViewHolder> {

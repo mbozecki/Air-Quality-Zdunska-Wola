@@ -59,23 +59,23 @@
                 android:id="@+id/info"
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="match_parent"
-                android:minHeight="360dp"
+                android:minHeight="270dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:background="@drawable/gradient_button_blue"
                 android:orientation="vertical"
-                android:padding="50dp">
+                android:padding="@dimen/_18sdp">
 
                 <TextView
                     android:id="@+id/main_CAQI"
                     android:layout_width="wrap_content"
-                    android:layout_height="159dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
                     android:text="0"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/_110sdp" />
+                    android:textSize="@dimen/_120sdp" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -92,23 +92,23 @@
                     android:layout_weight="1"
                     android:text="ładowanie..."
                     android:textColor="@color/white"
-                    android:textSize="24dp" />
+                    android:textSize="@dimen/_20sdp" />
             </LinearLayout>
 
             <TextView
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="@dimen/_30sdp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Jakość powietrza · CAQI"
                 android:textColor="@color/white"
-                android:layout_marginBottom="15dp"
-                android:textSize="18sp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
                 android:textStyle="bold"/>
 
             <FrameLayout
                 android:id="@+id/fragment_container"
                 android:layout_width="match_parent"
-                android:layout_height="650dp"
+                android:layout_height="@dimen/_600sdp"
                 />
 
 

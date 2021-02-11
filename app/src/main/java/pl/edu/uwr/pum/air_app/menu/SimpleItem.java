@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import pl.edu.uwr.pum.air_app.R;
 /**
- * Created by yarolegovich on 25.03.2017.
+ * for sliding menu only -  Created by yarolegovich on 25.03.2017.
  */
 public class SimpleItem extends DrawerItem<SimpleItem.ViewHolder> {
 

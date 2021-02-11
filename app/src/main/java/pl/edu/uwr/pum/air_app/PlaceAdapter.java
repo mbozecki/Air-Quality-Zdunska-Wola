@@ -16,11 +16,8 @@ import com.airbnb.paris.Paris;
 
 import org.jsoup.select.Elements;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
 
 public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> {
     private Activity mActivity;
@@ -61,9 +58,7 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
             setLook(mLayout, Integer.parseInt(CAQI));
 
             mLayout.setOnClickListener((view -> {
-                //System.out.println("CLick2ed");
                 int placeIndex= getAdapterPosition();
-                //System.out.println(placeIndex);
                 Intent intent= new Intent(mActivity, PlaceDetailActivity.class);
                 ArrayList<String> PM10x = new ArrayList<>(Arrays.asList(PM10.text())); //te dane przydadza sie do przekazania do viewpagera
                 ArrayList<String>PM25x = new ArrayList<>(Arrays.asList(PM25.text()));
@@ -93,7 +88,6 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
             } else if (CAQI > 75 && CAQI <= 100) {
                 Paris.styleBuilder(mLayout).background(mActivity.getResources().getDrawable(R.drawable.buttonstylered)).apply();
                 Paris.styleBuilder(mButton).background(mActivity.getResources().getDrawable(R.drawable.circle_red)).apply();
-
             } else {
                 Paris.styleBuilder(mLayout).background(mActivity.getResources().getDrawable(R.drawable.buttonstylepurple)).apply();
                 Paris.styleBuilder(mButton).background(mActivity.getResources().getDrawable(R.drawable.circle_purple)).apply();

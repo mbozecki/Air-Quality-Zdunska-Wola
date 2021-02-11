@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by yarolegovich on 25.03.2017.
+ * for sliding menu only - Created by yarolegovich on 25.03.2017.
  */
 
 @SuppressWarnings({"rawtypes", "ConstantConditions"})
@@ -125,9 +125,9 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
                     mContext.startActivity(i1);
                     break;
                 case 3:
-                    Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "email@mail.com"));
-                    emailIntent.putExtra(Intent.EXTRA_SUBJECT, "subject");
-                    emailIntent.putExtra(Intent.EXTRA_TEXT, "body");
+                    Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "mikolaj.bozecki8@gmail.com"));
+                    emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Temat");
+                    emailIntent.putExtra(Intent.EXTRA_TEXT, "Tekst");
                     mContext.startActivity(Intent.createChooser(emailIntent, "Chooser Title"));
             }
         }

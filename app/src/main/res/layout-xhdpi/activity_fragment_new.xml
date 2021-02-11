@@ -60,6 +60,7 @@
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="match_parent"
                 android:minHeight="360dp"
+
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:background="@drawable/gradient_button_blue"
@@ -69,7 +70,7 @@
                 <TextView
                     android:id="@+id/main_CAQI"
                     android:layout_width="wrap_content"
-                    android:layout_height="159dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"

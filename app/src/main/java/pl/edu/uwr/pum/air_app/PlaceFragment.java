@@ -1,5 +1,6 @@
 package pl.edu.uwr.pum.air_app;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,13 +8,13 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
-import java.util.UUID;
 
 public class PlaceFragment extends Fragment {
     private ViewPager2 viewPager2;
@@ -35,6 +36,7 @@ public class PlaceFragment extends Fragment {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

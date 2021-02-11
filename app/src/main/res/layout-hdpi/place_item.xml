@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="20dp">
+    <LinearLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/place_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttonstylered"
+        >
+        <Button
+            android:id="@+id/placeCircle"
+            android:visibility="invisible"
+            android:layout_width="30dp"
+            android:layout_height="10dp"
+            android:background="@drawable/circle_red"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:text="@string/ulzytnia"
+            android:textSize="22sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/placeCAQI"
+            android:layout_width="50dp"
+            android:minWidth="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="85"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+    </LinearLayout>
+</LinearLayout>
