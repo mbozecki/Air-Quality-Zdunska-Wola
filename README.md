@@ -3,9 +3,7 @@
 
 
   <p align="center">
-    An easy way to check air poluttion in my home city, Zduńska Wola, which is the 28th most polluted city in Europe.
-	
-	</p>
+    An easy way to check air poluttion in my home city, Zduńska Wola, which is the 28th most polluted city in Europe.</p>
 
 
 
