@@ -4,6 +4,7 @@
 
   <p align="center">
     An easy way to check air poluttion in my home city, Zduńska Wola, which is the 28th most polluted city in Europe.
+	
 	</p>
 
 
@@ -54,7 +55,7 @@ Local ecologists asked me to make a simple app which will get this data and pres
 
 ### Installation
 
-Just get the app from Google Play Store (LINK) or clone the repository and open it in Android Studio!
+Just get the app from Google Play Store (https://play.google.com/store/apps/details?id=pl.edu.uwr.pum.air_app) or clone the repository and open it in Android Studio!
 
 
 
