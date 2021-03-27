@@ -1,4 +1,4 @@
-# App-powietrze-Zdunska-Wola
+# Air-Quality-Zdunska-Wola
 ![product-screenshot](https://i.imgur.com/0n83l9f.jpg)
 
 
