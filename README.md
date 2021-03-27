@@ -1,6 +1,7 @@
 # Air-Quality-Zdunska-Wola
 ![product-screenshot](https://i.imgur.com/0n83l9f.jpg)
 
+https://play.google.com/store/apps/details?id=pl.edu.uwr.pum.air_app
 
   <p align="center">
     An easy way to check air poluttion in my home city, Zduńska Wola, which is the 28th most polluted city in Europe.</p>
